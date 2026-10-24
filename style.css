@@ -1,0 +1,90 @@
+html {
+    font-family: Roboto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex: 1 auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.link-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-section {
+    height: 500px;
+    display: flex;
+    background-color: #1F2937;
+        color: #F9FAF8;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.image-container {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-header {
+    align-self: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.illustration-section {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.rectangle-container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.illustration {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: rgb(204, 204, 242);
+    border-radius: 10px;
+}
+
+.illustration-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+}
